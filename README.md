@@ -25,7 +25,8 @@ Each of those ten categories will have ten subfolders, `210-290`
 and each of those ten categories will have ten subfolders, `211-219`
 and then one more set of ten down, so `214.1-214.9`
 
-In theory, this pattern could be continued infintely, or started from a higher point, e.g. `4000` if the user needed more subfolders.
+In theory, this pattern could be continued infintely, or started from a higher point, from the thousands or ten thousands if the user needed more subfolders.
+
 
 
 In the maximum amount of subfolders, `(###.#)` each file is given an ID out of 100, for example
@@ -57,4 +58,12 @@ The goal of point one was to easily be able to write down a location of a file f
 This system lets files use FolderIDs to remove extraneous folders. However, the one downside of this method is that it limits the number of files you can have to nine without creating another subfolder.
 
 ### 2. Each folder and subfolder uses place value to signify prescision
-As described previously, the higher division you are in, the less zeroes there will be in the ID. That way you can accurately get a picture of what division a subfolder is in based on its ID alone. This method also allows for infinite expansion, by both increasing the starting value, or increasing the number of de
+As described previously, the higher division you are in, the less zeroes there will be in the ID. That way you can accurately get a picture of what division a subfolder is in based on its ID alone. This method also allows for infinite expansion, by both increasing the starting value, or increasing the number of digits after the decimal place. Another advantage of using place value is ease of automation, see #3.
+
+### 3. Use a standard formatting style for automation and non-user action
+The standard formatting style allows scripts like Python, Shortcuts, Automator, and more to automatically label, move, or ID folders. It also allows for a quickly searchable interface. I've included autolabel.py, which given a file path, will rename the file path based on its file structure. (Using the five main divisions) The code is bad. Its probably the worst way to do it. but it works, and that's what matters.
+
+In sum, this whole file system is probably unnecessary. However, you get to have your own little database, just for you.
+
+Thanks for reading.
+- quantumsoldship
