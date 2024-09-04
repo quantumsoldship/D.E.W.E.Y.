@@ -1,9 +1,3 @@
-# D.E.W.E.Y.
-Document Enviroment With Efficient Yield
-(don't judge the acronym please)
-
----
-
 D.E.W.E.Y. is the file structure that i've invented to organize my life. It revolves around three main ideas:
   1. Give each file a unique, standard identifier
   2. Each folder and subfolder uses place value to signify prescision
@@ -65,5 +59,4 @@ The standard formatting style allows scripts like Python, Shortcuts, Automator, 
 
 In sum, this whole file system is probably unnecessary. However, you get to have your own little database, just for you.
 
-Thanks for reading.
-- quantumsoldship
+the end
