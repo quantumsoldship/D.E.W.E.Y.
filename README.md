@@ -1,4 +1,6 @@
-D.E.W.E.Y. is the file structure that i've invented to organize my life. It revolves around three main ideas:
+This is unrelated to both johnny.decimal and the Dewey Decimal System
+
+D.E.W.E.Y. is the file structure that i've invented to organize my computers. It revolves around three main ideas:
   1. Give each file a unique, standard identifier
   2. Each folder and subfolder uses place value to signify prescision
   3. Use a standard formatting style for automation and non-user action
